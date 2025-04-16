@@ -53,6 +53,14 @@ After running a test, the tool will:
    - Combined token throughput vs. concurrency
 3. Print a summary table with key metrics 📋
 
+## Example Output 📊
+
+Below is an example of the visualization output showing performance scaling characteristics across different concurrency levels:
+
+![Example Benchmark Results](example_output.png)
+
+As shown in the results, this particular model reaches optimal performance at around 16 concurrent requests, where throughput peaks before declining due to increased contention.
+
 ### Performance Interpretation 🔍
 
 - **Response Time vs. Concurrency**: Shows how latency increases with concurrency ⏱️
